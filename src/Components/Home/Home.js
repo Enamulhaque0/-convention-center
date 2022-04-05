@@ -11,13 +11,15 @@ const Home = () => {
       {/* <div> */}
         <div>
           <h1>
-            <span className="">Coding Master Laptop</span>
+            <span className="coding-master">Coding Master Laptop</span>
             <br />
-            <span>Smooth For Coding</span>
+            <span className="smooth">Smooth For Coding</span>
           </h1>
-          <p>
-            We review the best laptop for you so that you can code easily by
-            this laptop. Our recommended products have been praised by all.
+          <p className="laptop-title" >
+            We review the best laptop for you so that <br />
+             you can code easily by
+            this laptop. 
+             Our recommended products have been praised by all.
           </p>
         </div>
         <div>

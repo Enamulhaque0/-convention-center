@@ -7,7 +7,7 @@ const ReviewCard = ({ loadData }) => {
     <div className="card-container">
       <h1>{name}</h1>
       <p>{about}</p>
-      <h6>4.9</h6>
+      <h4>4.5</h4>
     </div>
   );
 };

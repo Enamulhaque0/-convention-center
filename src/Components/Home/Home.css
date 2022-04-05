@@ -6,6 +6,7 @@
 .Image{
     width: 500px;
     margin: 40px;
+    border-radius: 30px;
 }
 .see-all{
     background-color: brown;
@@ -15,8 +16,17 @@
     text-decoration: none;
     margin: 20px;
 }
-
+.laptop-title{
+    color: rgb(212, 80, 80);
+    margin-left: 50px;
+}
 .Customers{
     color: coral;
 }
 
+.coding-master{
+    color: tomato;
+}
+.smooth{
+    color: deepskyblue;
+}
