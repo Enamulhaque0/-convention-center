@@ -1,0 +1,13 @@
+.blog{
+    color: rgb(92, 236, 9);
+}
+.api, .semantic{
+    color: darkorange;
+    
+}
+.api-text, .semantic-text{
+    background-color: aqua;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+}

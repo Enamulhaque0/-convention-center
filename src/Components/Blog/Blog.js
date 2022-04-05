@@ -1,15 +1,16 @@
 import React from "react";
+import "./Blog.css"
 
 const Blog = () => {
   return (
-    <section className='className="mt-20 max-w-5xl mx-auto md:p-8 p-4'>
-      <h1 className="text-5xl font-caveat font-bold  text-center mb-12">
+    <section>
+      <h1 className="blog">
         Blog
       </h1>
       <div>
         <div>
-          <h2 className="text-2xl ">What Is Context API?</h2>
-          <p className="text-gray-500 my-6">
+          <h2 className="api">What Is Context API?</h2>
+          <p className="api-text">
             Context API is a method to pass data to lower level component
             without passing the data to every element. If we need to pass a data
             which is a child component of a child component so we have to pass
@@ -22,8 +23,8 @@ const Blog = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-2xl ">What Is Semantic Tag?</h2>
-        <p className="text-gray-500 my-6">
+        <h2 className="semantic">What Is Semantic Tag?</h2>
+        <p className="semantic-text">
           Semantic Tags Are The Tags which describes the purpose of a html tag.
           Before semantic tags were introduced we have to write every element
           inside div. But with semantic we can now specify the element type.
@@ -33,8 +34,8 @@ const Blog = () => {
         </p>
       </div>
       <div>
-        <h2 className="text-2xl">Difference In Block and Inline-Block?</h2>
-        <p className="text-gray-500 my-6">
+        <h2 className="api">Difference In Block and Inline-Block?</h2>
+        <p className="semantic-text">
           There are 3 type of element in html. Inline, Block and Inline Block.
           There Difference Is:
           <br />
