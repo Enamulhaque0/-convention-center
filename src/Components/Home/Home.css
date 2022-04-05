@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+  
+}
+
+.Image{
+    width: 500px;
+    margin: 40px;
+}
+.see-all{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
+
