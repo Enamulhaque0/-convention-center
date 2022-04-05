@@ -33,7 +33,7 @@ const Home = () => {
 
 
       <div>
-        <h1>Customers Review</h1>
+        <h1 className="Customers">Customers Review</h1>
         <Reviews></Reviews>
         <Link className="see-all" to="/review">See All Reviews</Link>
       </div>
