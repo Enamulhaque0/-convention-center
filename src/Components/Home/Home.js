@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <>
     <div className="container">
@@ -37,7 +38,7 @@ const Home = () => {
       <div>
         <h1 className="Customers">Customers Review</h1>
         <Reviews></Reviews>
-        <Link className="see-all" to="/review">See All Reviews</Link>
+        <button onClick={()=>navigate("/review")} className="see-all" to="/review">See All Reviews</button>
       </div>
    </>
   );

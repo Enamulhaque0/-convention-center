@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    align-items: center;
   
 }
 
@@ -19,6 +20,7 @@
 .laptop-title{
     color: rgb(212, 80, 80);
     margin-left: 50px;
+    margin-top: 40px;
 }
 .Customers{
     color: coral;
